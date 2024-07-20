@@ -1,0 +1,1 @@
+python main.py --train_dataset_path=data/dataset/cross_dataset/Atypical/2000/train_set1.csv --test_dataset_path=data/dataset/cross_dataset/Atypical/2000/test_set1.csv --model_name=Deep_GNN --emb_type=prot --task_msg=Atypical_2000 --train_data_pos_size=899 --train_data_neg_size=899 --test_data_pos_size=225 --test_data_neg_size=225 --batchsize=16 --device=1

@@ -1,0 +1,1 @@
+python main.py --train_dataset_path=data/dataset/cross_dataset/CAMK/2000/train_set1.csv --test_dataset_path=data/dataset/cross_dataset/CAMK/2000/test_set1.csv --model_name=Deep --emb_type=prot --task_msg=CAMK_2000 --train_data_pos_size=1783 --train_data_neg_size=1783 --test_data_pos_size=446 --test_data_neg_size=446 --batchsize=16 --device=1

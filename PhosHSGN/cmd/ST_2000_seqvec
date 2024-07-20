@@ -1,0 +1,1 @@
+python main.py --train_dataset_path=data/dataset/cross_dataset/ST/2000/train_set1.csv --test_dataset_path=data/dataset/cross_dataset/ST/2000/test_set1.csv --model_name=Deep --emb_type=seqvec --task_msg=ST_2000 --train_data_pos_size=9885 --train_data_neg_size=9885 --test_data_pos_size=2471 --test_data_neg_size=2471 --batchsize=16 --device=2

@@ -1,0 +1,10 @@
+--train_dataset_path=D:\lujiale\PtmDeep\deep\data\dataset\cross_dataset\AGC\2000\train_set1.csv
+--test_dataset_path=D:\lujiale\PtmDeep\deep\data\dataset\cross_dataset\AGC\2000\test_set1.csv
+--model_name=Deep_CNN
+--emb_type=prot
+--task_msg=AGC_2000
+--train_data_pos_size=4623
+--train_data_neg_size=4623
+--test_data_pos_size=1156
+--test_data_neg_size=1156
+--batchsize=16

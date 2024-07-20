@@ -1,0 +1,10 @@
+--train_dataset_path=D:\lujiale\PtmDeep\deep\data\dataset\cross_dataset\PKA\2000\train_set1.csv
+--test_dataset_path=D:\lujiale\PtmDeep\deep\data\dataset\cross_dataset\PKA\2000\test_set1.csv
+--model_name=Deep_CNN
+--emb_type=prot
+--task_msg=PKA_2000
+--train_data_pos_size=1657
+--train_data_neg_size=1657
+--test_data_pos_size=415
+--test_data_neg_size=415
+--batchsize=16
