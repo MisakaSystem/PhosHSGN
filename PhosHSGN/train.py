@@ -169,14 +169,7 @@ def train(config):
     print("Loading the test dataset: " + test_dataset_path)
     test_data = LuDataset(file_path=test_dataset_path)
     test_iter = DataLoader(dataset=test_data, batch_size=int(batchsize), shuffle=False, drop_last=True, collate_fn=collate)
-
-    if 'GNN' in config.model_name:
-        net = LuGTP_GNN(config).to(config.device)
-    elif 'CNN' in config.model_name:
-        net = LuGTP_CNN(config).to(config.device)
-    else:
-        # batch loading of datasets.
-        net = LuGTP(config).to(config.device)
+    net = LuGTP(config).to(config.device)
     net.apply(init_weights)
     optimizer = torch.optim.Adam(net.parameters(), lr=lr,weight_decay=weight_decay)
     loss = nn.CrossEntropyLoss()
