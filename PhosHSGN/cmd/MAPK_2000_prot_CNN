@@ -1,1 +1,0 @@
-python main.py --train_dataset_path=data/dataset/cross_dataset/MAPK/2000/train_set1.csv --test_dataset_path=data/dataset/cross_dataset/MAPK/2000/test_set1.csv --model_name=Deep_CNN --emb_type=prot --task_msg=MAPK_2000 --train_data_pos_size=1589 --train_data_neg_size=1589 --test_data_pos_size=397 --test_data_neg_size=397 --batchsize=16 --device=0
