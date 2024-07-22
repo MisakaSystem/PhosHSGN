@@ -1,6 +1,18 @@
 # PhosHSGN
 
-git config --global http.postBuffer 1048576000
-export blast/bin
-then
--db D:\lujiale\PtmDeep\deep\blast\swissprot
+## About
+PhosHSGN is a protein phosphorylation site prediction model that combines the deep neural network architecture of GNN and CNN.
+
+## Usage
+Install related packages.
+
+1.First step
+You need to deploy the feature extraction backend first. 
+run python extraction/esm_api.py
+
+2.Step 2
+Command line reference examples are at：PhosHSGN/cmd
+run python PhosHSGN/main.py
+
+## Datasets
+PhosHSGN/data/dataset/cross_dataset
